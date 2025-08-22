@@ -11083,3 +11083,29 @@ header.masthead h1, header.masthead .h1 {
     .text-pink {
       color: #e75480;
     }
+    /* Navbar base */
+#mainNav {
+  background-color: #600F0E; /* wine red */
+  border-bottom: 2px solid #1A0C0C; /* subtle bottom border */
+}
+
+/* Placeholder for logo/banner */
+#mainNav .logo-placeholder {
+  width: 120px;
+  height: 50px;
+  background-color: #000; /* black placeholder */
+  border-radius: 6px;
+}
+
+/* Navbar links */
+#mainNav .nav-link {
+  color: #FDF8F7 !important; /* cream text */
+  font-weight: 500;
+  font-size: 1.05rem;
+  letter-spacing: 0.5px;
+  transition: color 0.3s ease;
+}
+
+#mainNav .nav-link:hover {
+  color: #FAD6A5 !important; /* soft peach on hover */
+}
