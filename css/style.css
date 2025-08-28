@@ -10766,25 +10766,29 @@ hr.divider-light {
 }
 
 .hero {
-      background: url('https://source.unsplash.com/1600x600/?fashion,clothes') center/cover no-repeat;
-      color: white;
-      height: 60vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      position: relative;
-    }
-    .hero::before {
-      content: "";
-      position: absolute;
-      top: 0; left: 0; right: 0; bottom: 0;
-      background: rgba(0,0,0,0.5);
-    }
-    .hero-content {
-      position: relative;
-      z-index: 2;
-      text-align: center;
-    }
+    
+    background-color: #f5f5dc; /* Beige background */
+    color: #4B1E1E;            /* Text color for contrast */
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: transparent;   /* Remove dark overlay */
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+}
+
     .team-card {
       transition: transform 0.3s, box-shadow 0.3s;
     }
@@ -10805,7 +10809,7 @@ hr.divider-light {
       transition: color 0.3s;
     }
     .social-icons a:hover {
-      color: #d63384; /* brand accent */
+      color: #d63384; 
     }
 
 
@@ -10853,22 +10857,22 @@ header.masthead p {
     font-size: 3.5rem;
   }
 }
-
 .btn-outline-custom {
-    color: #fffcff;              /* Text color */
-    border: 2px solid #FFFFFF;   /* Outline/stroke color */
-    background-color: transparent; /* Keep button transparent */
-    padding: 0.75rem 1.5rem;      /* Adjust size if needed */
+    color: #ffffff;               /* White text initially */
+    border: 2px solid #ffffff;    /* White border */
+    background-color: transparent; /* Transparent background */
+    padding: 0.75rem 1.5rem;
     font-weight: 600;
-    border-radius: 0.25rem;       /* Optional: rounded corners */
+    border-radius: 0.25rem;
     transition: all 0.3s ease;
 }
 
 .btn-outline-custom:hover {
-    color: #fff;                  /* Text color on hover */
-    background-color: #8B3A3A;   /* Fill button on hover */
+    color: #fff;                  /* Text on hover */
+    background-color: #8B3A3A;   /* Red fill on hover */
     border-color: #8B3A3A;       
 }
+
 
 
 
@@ -11078,3 +11082,11 @@ footer h4, footer h5 {
   transform: translateY(1px); /* pressed effect */
   box-shadow: 0 3px 6px rgba(0,0,0,0.2);
 }
+
+
+
+
+
+
+
+
